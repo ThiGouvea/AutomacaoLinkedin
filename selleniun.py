@@ -1,19 +1,17 @@
 import re
 import time
-
 from selenium import webdriver
 from getpass import getpass
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
 
+
 email = str(input('Digite o email: '))
 password = getpass()
 link_pesquisa = 'https://www.linkedin.com/search/results/people/?keywords=tech%20recruiter&origin=CLUSTER_EXPANSION&sid=4d5'
 
 
-options = Options()
-options.add_argument('--headless')
 navegador = webdriver.Firefox()
 navegador.get('https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin')
 navegador.find_element('xpath', '//*[@id="username"]').send_keys(email)
