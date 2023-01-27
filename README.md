@@ -4,10 +4,11 @@
 
 
  
-Ter o selenium instalado na maquina, e executar o arquivo sellenium.py usando o interpretador Python3, digitar email e senha no terminal e só esperar
-o script conectar ou seguir todos os resultados da pesquisa.
+Ter o selenium instalado na maquina, e executar o arquivo sellenium.py usando o interpretador Python3, digitar e-mail e senha no terminal e só esperar
+o script conectar e seguir todos os resultados da pesquisa.
 
 Caso queira mudar o termo de pesquisa (o padrão é tech recruiter), deve-se somente mudar o link contido na variavel 'link_pesquisa' no script.
+
 
 ## Possiveis erros
 
