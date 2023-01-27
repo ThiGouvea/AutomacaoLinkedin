@@ -1,4 +1,4 @@
-# Automação de conecção de pessoas no LInkedin
+# Automação para conectar pessoas no LInkedin
 
 ## Como usar
 
